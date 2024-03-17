@@ -4,7 +4,7 @@ const gridContainer = document.querySelector('#container');
 const playButton = document.querySelector('#play');
 let blockNumbers;
 playButton.addEventListener('click', function() {
-    gridContainer ='';
+
     let difficultSelector = document.querySelector('#difficult').value;
     if (difficultSelector === 'easy') {
         blockNumbers = 100;
