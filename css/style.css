@@ -29,7 +29,7 @@ img{
     justify-content: center;
     background-color: aqua;
     border: 1px solid black;
-    height: 80px
+    
 }
 .dif-easy{
     width: calc(100% / 10);
@@ -51,4 +51,10 @@ img{
 }
 .blue{
     background-color: blue;
+}
+
+#container{
+    width: 900px;
+    height: 85vh;
+    margin: 0 auto;
 }
